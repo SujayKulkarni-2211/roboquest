@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROBOQUEST 2025 | Build. Code. Compete. Conquer.</title>
+    <!-- Google Fonts - Orbitron for the tech feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- CSS will be linked here later -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loader-wrapper">
+        <div class="loader">
+            <div class="robot-head">
+                <div class="robot-eye robot-eye-left"></div>
+                <div class="robot-eye robot-eye-right"></div>
+                <div class="robot-antenna"></div>
+            </div>
+            <div class="robot-body"></div>
+            <div class="robot-arm robot-arm-left"></div>
+            <div class="robot-arm robot-arm-right"></div>
+            <div class="robot-leg robot-leg-left"></div>
+            <div class="robot-leg robot-leg-right"></div>
+        </div>
+        <p id="chiptech-presents">Chiptech Presents</p>
+        <p id="roboquest-init">Initializing Roboquest...</p>
+    </div>
+    
+    
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">ROBOQUEST</div>
+        <!-- Add this inside <nav class="navbar"> -->
+<div class="menu-toggle">
+    <i class="fas fa-bars"></i>
+</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#challenges">Challenges</a>
+            <a href="#team">Team</a>
+            <a href="#register" class="register-btn">Register</a>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="glitch-container">
+            <div class="glitch-effect"></div>
+            <div class="hero-content">
+                <h1 class="main-title">ROBOQUEST 2025</h1>
+                <h2 class="sub-title">Build. Code. Compete. Conquer.</h2>
+                <p class="hero-description">A month-long robotics competition where innovation meets automation.</p>
+                
+                <div class="countdown-container">
+                    <p>Challenge Reveal Begins In:</p>
+                    <div class="countdown-timer">
+                        <div class="time-block">
+                            <span id="days">00</span>
+                            <span class="time-label">Days</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="hours">00</span>
+                            <span class="time-label">Hours</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="minutes">00</span>
+                            <span class="time-label">Minutes</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="seconds">00</span>
+                            <span class="time-label">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="#register" class="cta-primary">Register Now</a>
+                    <a href="#about" class="cta-secondary">Know More</a>
+                </div>
+                
+                <div class="loader">
+                    <div class="gear gear-1"></div>
+                    <div class="gear gear-2"></div>
+                    <div class="gear gear-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">What is ROBOQUEST?</h2>
+            <p class="section-description">
+                ROBOQUEST is a cutting-edge robotics competition that challenges students to build, program, and innovate. 
+                Over a month, participants will take on real-world, industry-sponsored challenges, pushing the limits of 
+                robotics and AI-driven problem-solving.
+            </p>
+            
+            <div class="key-highlights">
+                <div class="highlight-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Duration</h3>
+                    <p>March 24 – April 23, 2025</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Challenges</h3>
+                    <p>Real-world robotics problems</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Who Can Join?</h3>
+                    <p>Open to students from RV University & RVCE</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Compete & Win</h3>
+                    <p>Awards, networking, and industry exposure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Event Schedule -->
+    <section id="schedule" class="schedule-section">
+        <div class="container">
+            <h2 class="section-title">Mark Your Calendar</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <h3>March 24, 2025</h3>
+                        <p>Kickoff & Challenge Reveal</p>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li><span class="time">10:00 AM</span> Registration & Check-in</li>
+                            <li><span class="time">10:30 AM</span> Opening Ceremony</li>
+                            <li><span class="time">11:30 AM</span> Challenge Reveal & Team Assignments</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <h3>March 25 - April 22, 2025</h3>
+                        <p>Build & Checkpoints</p>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Weekly progress video submissions</li>
+                            <li>Mentorship & troubleshooting sessions</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <h3>April 23, 2025</h3>
+                        <p>Final Competition & Awards</p>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li><span class="time">9:00 AM</span> Check-in & Setup</li>
+                            <li><span class="time">10:00 AM</span> Robot Demonstrations</li>
+                            <li><span class="time">4:00 PM</span> Award Ceremony</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Challenges Section -->
+    <section id="challenges" class="challenges-section">
+        <div class="container">
+            <h2 class="section-title">The Challenge Awaits!</h2>
+            <p class="section-description">
+                Participants will work on real-world problem statements designed by industry partners. 
+                This is where you push boundaries, test automation, and showcase technical excellence.
+            </p>
+            
+            <div class="challenge-format">
+                <div class="challenge-item">
+                    <i class="fas fa-drafting-compass"></i>
+                    <p>Design & Build Robots</p>
+                </div>
+                <div class="challenge-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <p>Program Automation & AI Features</p>
+                </div>
+                <div class="challenge-item">
+                    <i class="fas fa-robot"></i>
+                    <p>Compete in Functional & Efficiency Tests</p>
+                </div>
+            </div>
+            
+            <div class="challenge-cta">
+                <p>Think you're up for it?</p>
+                <a href="#register" class="cta-primary">Register Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Team & Mentorship -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2 class="section-title">Meet the Organizers</h2>
+            <p class="section-description">
+                ROBOQUEST is organized by passionate students and guided by expert mentors. 
+                Meet the minds behind the event.
+            </p>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-member-img"><img src="images/bhuvan.jpg" alt="A cute boy named bhuvan madhusudan showing thumbs in RV University auditorium"></div>
+                    <h3>Bhuvan Madhusudhan</h3>
+                    <p>Chief Event Organizer</p>
+                    <div class="contact-links">
+                        <a href="mailto:bhuvanms.btech23@rvu.edu.in"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/bhuvan-madhusudhan-623108145/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-member-img"><img src="images/dharini.jpg" alt="A cute boy named bhuvan madhusudan showing thumbs in RV University auditorium"></div>
+                    <h3>Dharini KH</h3>
+                    <p>Co-Organizer</p>
+                    <div class="contact-links">
+                        <a href="mailto:dharinikhbtech24@rvu.edu.in"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/dharini-kh-16423a32a/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-member-img"><img src="images/sreegovinth.jpeg" alt=""></div>
+                    <h3>Sree Govinth</h3>
+                    <p>Head Coordinator</p>
+                    <div class="contact-links">
+                        <a href="mailto:sreegovinthn.btech23@rvu.edu.in"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/sree-govinth-n-672473298/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-member-img"><img src="images/suj.jpg" alt=""></div>
+                    <h3>Sujay V Kulkarni</h3>
+                    <p>Tech Lead & Web Master</p>
+                    <div class="contact-links">
+                        <a href="mailto:sujayvk.btech23@rvu.edu.in"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/sujay-kulkarni-51391b286/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Registration Section -->
+    <section id="register" class="register-section">
+        <div class="container">
+            <h2 class="section-title">Ready to Build the Future?</h2>
+            <p class="section-description">
+                Secure your spot in ROBOQUEST now! Don't miss out on this thrilling robotics showdown.
+            </p>
+            
+            <a href="https://unstop.com" target="_blank" class="register-button">Register Now</a>
+        </div>
+    </section>
+
+    <!-- 7. Gallery & Social Media -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">ROBOQUEST in Action</h2>
+            
+            <div class="gallery-carousel">
+                <div class="gallery-item">
+                    <img src="images/roboquest1.jpg" alt="ROBOQUEST Event Photo">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/roboquest2.jpg" alt="ROBOQUEST Event Photo">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/roboquest3.jpg" alt="ROBOQUEST Event Photo">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/roboquest4.webp" alt="ROBOQUEST Event Photo">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/roboquest5.jpg" alt="ROBOQUEST Event Photo">
+                </div>
+            </div>
+            
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/chiptech_rvu/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="roboquest24@gmail.com" class="social-icon"><i class="fab fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/chiptech-rvu-ba3398286/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p class="hashtag">#ROBOQUEST2025 #BuildCodeCompete</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>ROBOQUEST</h3>
+                    <p>Engineered By CHIPTECH</p>
+                </div>
+                
+                <div class="footer-info">
+                    <div class="venue-info">
+                        <h4><i class="fas fa-map-marker-alt"></i> Venue</h4>
+                        <p>IEM Hall (Kickoff), Final Competition Venue TBD</p>
+                    </div>
+                    <br><br>
+                    <div class="contact-info">
+                        <h4><i class="fas fa-envelope"></i> Contact</h4>
+                        <p>roboquest24@gmail.com | +91 97423 77633</p>
+                    </div>
+                </div>
+                
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#schedule">Schedule</a>
+                    <a href="#challenges">Challenges</a>
+                    <a href="#register">Register</a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 ROBOQUEST. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const chiptechPresents = document.getElementById('chiptech-presents');
+    const roboquestInit = document.getElementById('roboquest-init');
+    const loaderWrapper = document.getElementById('loader-wrapper');
+
+    // Initial display of "Chiptech Presents"
+    chiptechPresents.style.opacity = 1;
+
+    // After a delay, fade out "Chiptech Presents" and show "Initializing Roboquest..."
+    setTimeout(function() {
+        chiptechPresents.style.transition = 'opacity 1s'; // Add a transition for smooth fading
+        chiptechPresents.style.opacity = 0; // Fade out
+
+        setTimeout(function() {
+            chiptechPresents.style.display = 'none'; // Hide it completely after fade out
+            roboquestInit.style.display = 'block'; // Show initializing message
+        }, 1000); // Wait for the fade-out transition (1s)
+
+    }, 2000); // Show "Chiptech Presents" for 2 seconds
+
+    // After "Initializing Roboquest..." is displayed, hide the loader
+    setTimeout(function() {
+        loaderWrapper.style.display = 'none'; // Hide the whole loader
+    }, 5000); // Total time: Chiptech (2s) + FadeOut (1s) + Roboquest init (2s)
+});
+
+    </script>
+
+    <!-- JavaScript for Animations and Countdown -->
+    <script>
+        // Countdown Timer
+        const countdownDate = new Date("Mar 24, 2025 10:00:00").getTime();
+        
+        const countdown = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = countdownDate - now;
+            
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            document.getElementById("days").innerHTML = days.toString().padStart(2, "0");
+            document.getElementById("hours").innerHTML = hours.toString().padStart(2, "0");
+            document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, "0");
+            document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, "0");
+            
+            if (distance < 0) {
+                clearInterval(countdown);
+                document.querySelector(".countdown-container").innerHTML = "<p>Challenge has begun!</p>";
+            }
+        }, 1000);
+        
+        
+    </script>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('show');
+        });
+    </script>
+     
+    
+</body>
+</html>
